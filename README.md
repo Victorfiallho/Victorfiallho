@@ -2,7 +2,7 @@
 - 👀 I’m interested in phylosophy
 - 🌱 I’m currently learning coding
 - 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me @victor.fiallho
+- 📫 How to reach me @victor.fiallho@gmail.com
 - ⚡ Fun fact: idk
 - 
 
