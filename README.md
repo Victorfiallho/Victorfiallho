@@ -2,7 +2,7 @@
 
 ### 🤖 Futuro Engenheiro de IA | 🧠 Entusiasta de Filosofia | 🥋 Praticante de Jiu-Jitsu
 
-Sou estudante de **Engenharia de Inteligência Artificial** na primeira graduação bacharel do Brasil. Acredito que a tecnologia só atinge seu potencial máximo quando é democratizada e aliada a um pensamento crítico e ético.
+Sou estudante de **Engenharia de Inteligência Artificial** na primeira turma de graduação bacharel do Brasil. Acredito que a tecnologia  atingirá seu potencial máximo quando for democratizada e aliada a um pensamento crítico e ético para o beneficio social do usuário.
 
 ---
 
