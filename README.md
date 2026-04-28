@@ -4,12 +4,6 @@
 
 </div>
 
-<div align="center">
-
-<img src="https://media.giphy.com/media/4jqmPFiUkTCVbCPpiW/giphy.gif" width="480" height="270" />
-
-</div> 
-
 I'm an **AI Engineering student** in one of Brazil's first bachelor's programs in the field — building from the ground up: math, logic, systems, and the reasoning behind the tools.
 
 I care less about using AI and more about **understanding why it works** — and when it doesn't.
@@ -44,6 +38,14 @@ victor = {
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+
+---
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/4jqmPFiUkTCVbCPpiW/giphy.gif" width="480" height="270" />
+
+</div> 
 ---
 
 ## Currently Learning
