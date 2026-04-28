@@ -43,9 +43,10 @@ victor = {
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/4jqmPFiUkTCVbCPpiW/giphy.gif" width="480" height="270" />
+<img src="https://media.giphy.com/media/BLAdhA1YRwxW6umjvh/giphy.gif" width="480" height="270" />
 
-</div> 
+</div>
+
 
 ## Currently Learning
 
