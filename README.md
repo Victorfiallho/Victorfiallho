@@ -4,6 +4,11 @@
 
 </div>
 
+<div align="center">
+
+<img src="https://media.giphy.com/media/4jqmPFiUkTCVbCPpiW/giphy.gif" width="480" height="270" />
+
+</div> 
 
 I'm an **AI Engineering student** in one of Brazil's first bachelor's programs in the field — building from the ground up: math, logic, systems, and the reasoning behind the tools.
 
