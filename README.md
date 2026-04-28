@@ -45,9 +45,9 @@ victor = {
 
 ## Currently Learning
 
-![Python](https://img.shields.io/badge/Studying-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![Calculus](https://img.shields.io/badge/Studying-Calculus-black?style=flat-square)
-![Algorithms](https://img.shields.io/badge/Studying-Algorithms-darkgreen?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Calculus](https://img.shields.io/badge/Calculus-black?style=flat-square)
+![Algorithms](https://img.shields.io/badge/Algorithms-darkgreen?style=flat-square)
 
 ---
 
