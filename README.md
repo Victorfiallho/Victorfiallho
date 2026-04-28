@@ -41,12 +41,6 @@ victor = {
 
 ---
 
-<div align="center">
-
-<img src="https://media.giphy.com/media/BLAdhA1YRwxW6umjvh/giphy.gif" width="480" height="270" />
-
-</div>
-
 
 ## Currently Learning
 
