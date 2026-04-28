@@ -29,7 +29,7 @@ victor = {
 - 🧠 Exploring the intersection of philosophy and AI alignment
 - 🔐 Cybersecurity as a parallel track — ethical hacking, systems thinking
 - 🌍 Contributing to open-source projects that democratize knowledge
-- 💬 Fluent in **PT / EN / ES** — open to international collaboration
+- 💬 Fluent in **PT / EN** — open to international collaboration
 
 ---
 
