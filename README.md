@@ -43,15 +43,11 @@ victor = {
 
 ---
 
-## GitHub Stats
+## Currently Learning
 
-<div align="center">
-
-![Victor's GitHub stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Victorfiallho&layout=compact&theme=dark&hide_border=true&bg_color=0d1117)
-
-</div>
+![Python](https://img.shields.io/badge/Studying-Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Calculus](https://img.shields.io/badge/Studying-Calculus-black?style=flat-square)
+![Algorithms](https://img.shields.io/badge/Studying-Algorithms-darkgreen?style=flat-square)
 
 ---
 
