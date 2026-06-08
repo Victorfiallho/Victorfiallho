@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3B82F6?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorfiallho.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
 [![Instagram](https://img.shields.io/badge/@aotomate-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/aotomate)
 [![GitHub followers](https://img.shields.io/github/followers/Victorfiallho?logo=GitHub&style=for-the-badge)](https://github.com/Victorfiallho)
@@ -30,15 +31,7 @@ Trilingual (PT · EN · ES) · Based in Brasília, Brazil · Practices Jiu-Jitsu
 
 I build custom AI agents, WhatsApp automation pipelines, and management systems — not templates, actual production systems tuned to each client’s operation.
 
-|Tier                    |Price             |Scope                    |
-|------------------------|------------------|-------------------------|
-|**Ignição** (onboarding)|R$ 1,500–2,500    |Setup + deploy           |
-|**Semente**             |R$ 350–600/mês    |1 agent, basic flows     |
-|**Raiz**                |R$ 600–1,000/mês  |Multi-flow + integrations|
-|**Tronco**              |R$ 1,000–1,500/mês|Full ecosystem           |
-
-
-> Currently closing first client. 3 paying clients = proof of concept → SaaS transition.
+First client live. Building toward 3 paying clients as proof of concept, then transitioning to SaaS.
 
 -----
 
@@ -66,11 +59,12 @@ Full-stack management system built for a real organization (União Centro Oeste 
 
 -----
 
-### Sentiment Classifier (PT)
+### Portuguese Sentiment Classifier
 
-Portuguese sentiment classifier — TF-IDF + Logistic Regression. Early ML project, learning in public.
+NLP pipeline for sentiment analysis in Brazilian Portuguese — built from scratch using classical ML, without relying on pre-trained models. Covers the full cycle: corpus preprocessing, TF-IDF feature extraction, and Logistic Regression training and evaluation.
 
-- **Stack:** Python · scikit-learn · pandas
+- **Stack:** Python · scikit-learn · pandas · NLTK
+- **Focus:** Text normalization for PT-BR, class imbalance handling, model interpretability
 
 -----
 
