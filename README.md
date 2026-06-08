@@ -4,7 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3B82F6?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorfiallho.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
-[![Instagram](https://img.shields.io/badge/@aotomate-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/aotomate)
+[![Instagram](https://img.shields.io/badge/@victorfiallho-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/victorfiallho)
 [![GitHub followers](https://img.shields.io/github/followers/Victorfiallho?logo=GitHub&style=for-the-badge)](https://github.com/Victorfiallho)
 
 </div>
