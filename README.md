@@ -5,6 +5,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3B82F6?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorfiallho.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
 [![Instagram](https://img.shields.io/badge/@victorfiallho-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/victorfiallho)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VictorFialho)
 [![GitHub followers](https://img.shields.io/github/followers/Victorfiallho?logo=GitHub&style=for-the-badge)](https://github.com/Victorfiallho)
 
 </div>
@@ -13,9 +14,9 @@
 
 ## About me
 
-I’m a 20-year-old AI Engineering student (IESB, Brasília — one of Brazil’s first bachelor’s programs in the field) and founder of **AoTomate Sistemas**.
+I'm a 20-year-old AI Engineering student (IESB, Brasília — one of Brazil's first bachelor's programs in the field) and founder of **AoTomate Sistemas**.
 
-I don’t just study automation — I build and deploy it for real clients. My work sits at the intersection of AI agents, workflow automation, and full-stack web development.
+I don't just study automation — I build and deploy it for real clients. My work sits at the intersection of AI agents, workflow automation, and full-stack web development.
 
 ```
 Problem → System → Shipped → Iterated
@@ -29,7 +30,7 @@ Trilingual (PT · EN · ES) · Based in Brasília, Brazil · Practices Jiu-Jitsu
 
 **AI-powered automation ecosystems for small and medium businesses.**
 
-I build custom AI agents, WhatsApp automation pipelines, and management systems — not templates, actual production systems tuned to each client’s operation.
+I build custom AI agents, WhatsApp automation pipelines, and management systems — not templates, actual production systems tuned to each client's operation.
 
 First client live. Building toward 3 paying clients as proof of concept, then transitioning to SaaS.
 
@@ -101,9 +102,11 @@ NLP pipeline for sentiment analysis in Brazilian Portuguese — built from scrat
 
 <div align="center">
 
-![Victor’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&hide=contribs,prs&show_icons=true&bg_color=0d1116&title_color=3B82F6&text_color=a4aacb&icon_color=3B82F6&hide_border=true)
+![Victor's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&bg_color=0d1116&title_color=3B82F6&text_color=a4aacb&icon_color=3B82F6&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Victorfiallho&theme=dark&bg_color=0d1116&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Victorfiallho&theme=dark&background=0d1116&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&hide_border=true)
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/VictorFialho?theme=dark&font=Fira%20Code&ext=heatmap&border=0&background=0d1116)
 
 </div>
 
