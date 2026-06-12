@@ -1,117 +1,102 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Victor+Fialho+%F0%9F%91%8B;AI+Engineer+%7C+Founder+%7C+Builder;I+ship+things+that+work.)](https://github.com/Victorfiallho)
+<img src="./assets/vf-labs-banner.svg" alt="VF-Labs — Building Intelligent Systems" width="100%" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3B82F6?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorfiallho.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
-[![Instagram](https://img.shields.io/badge/@victorfiallho-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/victorfiallho)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VictorFialho)
-[![GitHub followers](https://img.shields.io/github/followers/Victorfiallho?logo=GitHub&style=for-the-badge)](https://github.com/Victorfiallho)
+<br/>
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3FAE54?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0d1116)](https://victorfiallho.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor_Fialho-3FAE54?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1116)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
+[![LeetCode](https://img.shields.io/badge/LeetCode-VictorFialho-3FAE54?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0d1116)](https://leetcode.com/u/VictorFialho)
 
 </div>
 
------
+<br/>
 
-## About me
+```bash
+$ whoami
 
-I’m a 20-year-old AI Engineering student (IESB, Brasília — one of Brazil’s first bachelor’s programs in the field) and founder of **AoTomate Sistemas**.
+Victor Fialho — 20 · Brasília, Brazil 🇧🇷
+AI Engineering @ IESB (one of Brazil's first bachelor's programs in the field)
+Founder @ AoTomate Sistemas
 
-I don’t just study automation — I build and deploy it for real clients. My work sits at the intersection of AI agents, workflow automation, and full-stack web development.
+I don't just study automation — I build it, ship it,
+and debug it in production for real clients.
+
+$ cat languages.txt
+PT (native) · EN (fluent) · ES (advanced)
+
+$ cat off_duty.txt
+Jiu-Jitsu · philosophy of mind · history of mathematics
+```
+
+<br/>
+
+## `>_` What I'm building
+
+### Hera Remoto — Multi-Tenant WhatsApp AI Agent
+
+Flagship AoTomate system: an AI customer service agent built for a remote secretarial company, **live in production**. End-to-end ownership — architecture, deployment, monitoring, and production debugging.
 
 ```
-Problem → System → Shipped → Iterated
+┌─ STACK ──────────────────────────────────────────────────┐
+│  N8N · Evolution API · Supabase · Groq (Llama 3.3 70B)   │
+│  Oracle Cloud (2 VMs)                                    │
+└──────────────────────────────────────────────────────────┘
 ```
 
-Trilingual (PT · EN · ES) · Based in Brasília, Brazil · Practices Jiu-Jitsu
+- **What it does:** answers inbound WhatsApp messages 24/7 in seconds, routes conversations per tenant, escalates to humans only when needed
+- **Engineering highlights:**
+  - Diagnosed and fixed a production-breaking change in Meta's `remoteJid` → `@lid` GUID format that silently broke message routing in Evolution API
+  - Multi-tenant message routing with hardened Supabase RLS policies
+  - Zero-marginal-cost inference pipeline — migrated from Claude API to Groq free tier
+- **Code:** private (client production system) · architecture writeup available on request
 
------
+`STATUS: ● LIVE`
 
-## 🚀 AoTomate Sistemas
-
-**Custom AI automation that pays for itself.**
-
-I design and deploy AI agents, WhatsApp automation pipelines, and management systems engineered around each client’s actual operation — no templates, no bloat. The goal is simple math: every system must answer faster, recover lost leads, and eliminate hours of repetitive work that a human shouldn’t be doing.
-
-> 💰 **What clients get:** 24/7 customer response in seconds instead of hours · ~[X] hours/week of manual work eliminated · zero missed leads outside business hours · infrastructure tuned to run at near-zero marginal cost.
-
-First client live in production. Building toward 3 paying clients as proof of concept, then transitioning to SaaS.
-
------
-
-## 🏗️ Projects
-
-### Hera Remoto — AI Customer Service Agent
-
-Multi-tenant WhatsApp AI agent built for a remote secretarial company. End-to-end ownership: architecture, deployment, and debugging in production.
-
-- **Stack:** N8N · Evolution API · Supabase · Groq (Llama 3.3 70B) · Oracle Cloud Free Tier
-- **Impact:**
-  - ⚡ Average response time cut from [X min] to **under [Y] seconds**
-  - 🌙 **24/7 availability** — [X]% of inbound messages handled outside business hours
-  - 🤖 [X]% of conversations resolved end-to-end without human handoff
-  - 💸 **R$0 in inference & infra cost** — zero-cost LLM pipeline (Groq free tier + Oracle Free Tier)
-- **Engineering highlights:** solved `remoteJid` / `@lid` routing bugs in Evolution API, hardened Supabase RLS policies, multi-tenant message routing
-- **Status:** Live ✅
-
-<details>
-<summary>📸 Ver Demonstração Visual</summary>
-<br>
-
-<!-- Adicione aqui GIFs ou screenshots do fluxo no WhatsApp, do workflow no N8N e do painel no Supabase -->
-
-<!-- Exemplo:
-<img src="./assets/hera-demo.gif" width="700" alt="Hera Remoto respondendo em tempo real no WhatsApp" />
-<img src="./assets/hera-n8n-flow.png" width="700" alt="Arquitetura do workflow no N8N" />
--->
-
-*Demonstração em breve.*
-
-</details>
-
------
+<br/>
 
 ### Sels UCOB — Order Management System
 
-Full-stack management system built for a real organization (União Centro Oeste Brasileira). Handles orders, inventory, shipments, and reporting with role-based access.
+Full-stack system built for a real organization (União Centro Oeste Brasileira). Complete order lifecycle — request → warehouse separation → shipment → delivery — with role-based access and photo evidence at each stage.
 
-- **Stack:** Next.js 15 · React 19 · Supabase · Tailwind CSS 4 · shadcn/ui · TypeScript
-- **Impact:**
-  - 📦 [X]+ orders processed through the full lifecycle (request → separation → shipment → delivery)
-  - ⏱️ Average order-processing time reduced by **[X]%** vs. the previous manual workflow
-  - 👥 Multi-role auth (admin/operator) serving [X] active users across departments
-  - 🔄 Real-time inventory and shipment tracking with photo evidence at each stage
-- **Features:** order lifecycle management, warehouse separation flow, shipment tracking, report generation, photo uploads
-- **Deploy:** Vercel (CI/CD via GitHub push → auto-build) · [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
-- **Scale:** 65+ commits, multi-module architecture, production-ready
-- **Status:** Live ✅
+```
+┌─ STACK ──────────────────────────────────────────────────┐
+│  Next.js 15 · React 19 · TypeScript · Supabase           │
+│  Tailwind CSS 4 · shadcn/ui · Vercel CI/CD               │
+└──────────────────────────────────────────────────────────┘
+```
 
-<details>
-<summary>📸 Ver Demonstração Visual</summary>
-<br>
+- **Features:** multi-role auth (admin/operator), real-time inventory and shipment tracking, report generation, photo uploads
+- **Deploy:** [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
 
-<!-- Adicione aqui screenshots do dashboard, do fluxo de separação e dos relatórios -->
+`STATUS: ● LIVE`
 
-<!-- Exemplo:
-<img src="./assets/sels-dashboard.png" width="700" alt="Dashboard de pedidos do Sels UCOB" />
-<img src="./assets/sels-flow.gif" width="700" alt="Fluxo de separação e envio" />
--->
-
-*Demonstração em breve.*
-
-</details>
-
------
+<br/>
 
 ### Portuguese Sentiment Classifier
 
-NLP pipeline for sentiment analysis in Brazilian Portuguese — built from scratch using classical ML, without relying on pre-trained models. Covers the full cycle: corpus preprocessing, TF-IDF feature extraction, and Logistic Regression training and evaluation.
+NLP pipeline for sentiment analysis in Brazilian Portuguese — classical ML from scratch, no pre-trained models. Corpus preprocessing → TF-IDF → Logistic Regression, with focus on PT-BR text normalization, class imbalance, and model interpretability.
 
-- **Stack:** Python · scikit-learn · pandas · NLTK
-- **Focus:** Text normalization for PT-BR, class imbalance handling, model interpretability
+```
+┌─ STACK ──────────────────────────────────────────────────┐
+│  Python · scikit-learn · pandas · NLTK                   │
+└──────────────────────────────────────────────────────────┘
+```
 
------
+- **Code:** [github.com/Victorfiallho](https://github.com/Victorfiallho)
 
-## 🧰 Stack
+<br/>
+
+## `>_` AoTomate Sistemas
+
+The venture under VF-Labs. I build custom AI agents, WhatsApp automation pipelines, and management systems engineered around each client's actual operation — no templates, no bloat. First client live in production; building toward a SaaS product.
+
+→ More at [victorfiallho.github.io](https://victorfiallho.github.io)
+
+<br/>
+
+## `>_` Stack
 
 **AI & Automation**
 
@@ -139,20 +124,20 @@ NLP pipeline for sentiment analysis in Brazilian Portuguese — built from scrat
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
 
------
+<br/>
 
-## 📊 Stats
-
-![Victor’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&bg_color=0d1116&title_color=3B82F6&text_color=a4aacb&icon_color=3B82F6&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=Victorfiallho&theme=dark&background=0d1116&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&hide_border=true)
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/VictorFialho?theme=dark&font=Fira%20Code&ext=heatmap&border=0&background=0d1116)
-
------
+## `>_` Stats
 
 <div align="center">
 
-**Building in public · Brasília, Brazil · Open to clients and co-builders**
+![Victor's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&bg_color=0d1116&title_color=3FAE54&text_color=a4aacb&icon_color=65CC73&hide_border=true)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+`DATA · MODELS · SYSTEMS · IDEAS · CODE · IMPACT`
 
 </div>
