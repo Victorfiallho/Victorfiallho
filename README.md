@@ -105,7 +105,6 @@ $ cat roadmap.txt
 [NOW ]  Classical ML & NLP — scikit-learn, feature engineering, PT-BR text
 [NOW ]  AI Engineering degree — math foundations (calculus, linear algebra)
 [NEXT]  Cloud certification track — AWS AI Practitioner
-[NEXT]  RAG pipelines & vector databases
 ```
 
 <br/>
