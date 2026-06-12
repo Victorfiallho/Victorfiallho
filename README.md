@@ -5,9 +5,9 @@
 <br/>
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-victorfiallho.github.io-3FAE54?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0d1116)](https://victorfiallho.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor_Fialho-3FAE54?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1116)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
-[![LeetCode](https://img.shields.io/badge/LeetCode-VictorFialho-3FAE54?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0d1116)](https://leetcode.com/u/VictorFialho)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3FAE54?style=for-the-badge&logo=githubpages&logoColor=white)](https://victorfiallho.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3FAE54?style=for-the-badge)](https://br.linkedin.com/in/victor-fialho-9140b23b5)
+[![LeetCode](https://img.shields.io/badge/LeetCode-3FAE54?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VictorFialho)
 
 </div>
 
@@ -93,6 +93,20 @@ NLP pipeline for sentiment analysis in Brazilian Portuguese — classical ML fro
 The venture under VF-Labs. I build custom AI agents, WhatsApp automation pipelines, and management systems engineered around each client's actual operation — no templates, no bloat. First client live in production; building toward a SaaS product.
 
 → More at [victorfiallho.github.io](https://victorfiallho.github.io)
+
+<br/>
+
+## `>_` Sharpening now
+
+```bash
+$ cat roadmap.txt
+
+[NOW ]  Agentic AI — multi-agent orchestration beyond visual builders
+[NOW ]  Classical ML & NLP — scikit-learn, feature engineering, PT-BR text
+[NOW ]  AI Engineering degree — math foundations (calculus, linear algebra)
+[NEXT]  Cloud certification track — AWS AI Practitioner
+[NEXT]  RAG pipelines & vector databases
+```
 
 <br/>
 
