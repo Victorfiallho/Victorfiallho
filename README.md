@@ -151,6 +151,6 @@ $ cat roadmap.txt
 
 <div align="center">
 
-`DATA · MODELS · SYSTEMS · IDEAS · CODE · IMPACT`
+`DATA · MODELS · SYSTEMS · IDEAS · CODE`
 
 </div>
