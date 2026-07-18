@@ -179,7 +179,7 @@ $ cat roadmap.txt
 
 <div align="center">
 
-![Victor's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&bg_color=0d1116&title_color=3FAE54&text_color=a4aacb&icon_color=65CC73&hide_border=true)
+https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true
 
 </div>
 
