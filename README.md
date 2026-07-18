@@ -18,7 +18,7 @@ $ whoami
 
 Victor Fialho — 20 · Brasília, Brazil 🇧🇷
 AI Engineering @ IESB (one of Brazil's first bachelor's programs in the field)
-Founder @ AoTomate Sistemas
+Founder @ AoTomate Sistemas · Automation Analyst @ DataCrazy CRM
 
 I don't just study automation — I build it, ship it,
 and debug it in production for real clients.
@@ -68,9 +68,42 @@ Full-stack system built for a real organization (União Centro Oeste Brasileira)
 ```
 
 - **Features:** multi-role auth (admin/operator), real-time inventory and shipment tracking, report generation, photo uploads
+- **Scale:** 65+ commits, multi-module architecture, production-ready
 - **Deploy:** [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
 
 `STATUS: ● LIVE`
+
+<br/>
+
+### AoTomate Cockpit — Internal Ops Dashboard
+
+Management layer for AoTomate's operation — the control panel behind the automation systems I ship to clients.
+
+```
+┌─ STACK ──────────────────────────────────────────────────┐
+│  TypeScript · React · Supabase                           │
+└──────────────────────────────────────────────────────────┘
+```
+
+- **Code:** [github.com/Victorfiallho/aotomate-cockpit](https://github.com/Victorfiallho/aotomate-cockpit)
+
+`STATUS: ● IN PROGRESS`
+
+<br/>
+
+### TAKE-NOTION — Personal Idea Architecture App
+
+A Notion-inspired web app for structuring and connecting personal ideas — a space to architect thinking, not just store notes.
+
+```
+┌─ STACK ──────────────────────────────────────────────────┐
+│  TypeScript · React                                      │
+└──────────────────────────────────────────────────────────┘
+```
+
+- **Code:** [github.com/Victorfiallho/TAKE-NOTION](https://github.com/Victorfiallho/TAKE-NOTION)
+
+`STATUS: ● IN PROGRESS`
 
 <br/>
 
@@ -101,6 +134,7 @@ The venture under VF-Labs. I build custom AI agents, WhatsApp automation pipelin
 ```bash
 $ cat roadmap.txt
 
+[NOW ]  DevOps foundations — Docker & Kubernetes (containers, orchestration)
 [NOW ]  Agentic AI — multi-agent orchestration beyond visual builders
 [NOW ]  Classical ML & NLP — scikit-learn, feature engineering, PT-BR text
 [NOW ]  AI Engineering degree — math foundations (calculus, linear algebra)
@@ -132,8 +166,10 @@ $ cat roadmap.txt
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**Infra**
+**Infra & DevOps**
 
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
 
