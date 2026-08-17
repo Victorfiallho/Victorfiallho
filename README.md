@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/vf-labs-banner.svg" alt="VF-Labs — Building Intelligent Systems" width="100%" />
+  <img src="./vf-labs-banner.svg" alt="VF-Labs — Building Intelligent Systems" width="100%" />
 
   <br />
 
