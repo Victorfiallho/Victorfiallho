@@ -1,160 +1,157 @@
 <div align="center">
-
   <img src="./vf-labs-banner.svg" alt="VF-Labs — Building Intelligent Systems" width="100%" />
-
-  <br />
-
-
-
-
-
 </div>
 
->_ whoami
+<br />
 
-Victor Fialho · Anápolis, Brazil 🇧🇷
+## `>_ whoami`
+
+**Victor Fialho** · Anápolis, Brazil 🇧🇷
 AI Engineering @ UniEVANGÉLICA
 Founder @ AoTomate Sistemas · Automation Analyst @ DataCrazy CRM
 
 I build AI agents, automation pipelines, and full-stack systems for real operations. My work spans architecture, implementation, deployment, monitoring, and production debugging — from multi-tenant WhatsApp agents to retrieval systems with evaluation suites.
 
-languages  PT (native) · EN (fluent) · ES (advanced)
-off-duty  Jiu-Jitsu · philosophy of mind · history of mathematics
+```text
+languages   PT (native) · EN (fluent) · ES (advanced)
+off-duty    Jiu-Jitsu · philosophy of mind · history of mathematics
+```
 
->_ Featured projects
+---
 
-Hera Remoto — Multi-Tenant WhatsApp AI Agent
+## `>_ Featured projects`
 
-LIVE IN PRODUCTION · Flagship AoTomate system
+### Hera Remoto — Multi-Tenant WhatsApp AI Agent
+
+![Status](https://img.shields.io/badge/status-live%20in%20production-3FAE54?style=flat-square) · Flagship AoTomate system
 
 AI customer-service agent built for a remote secretarial company. I own the system end to end: architecture, deployment, monitoring, and production debugging.
 
-Stack: n8n · Evolution API · Supabase · Groq / Llama 3.3 70B · Oracle Cloud
+**Stack:** n8n · Evolution API · Supabase · Groq / Llama 3.3 70B · Oracle Cloud
 
-Answers inbound WhatsApp messages 24/7 and escalates conversations when human support is needed
+- Answers inbound WhatsApp messages 24/7 and escalates conversations when human support is needed
+- Routes conversations across tenants with hardened Supabase Row Level Security policies
+- Diagnosed and fixed a production-breaking migration from Meta's `remoteJid` format to `@lid` GUIDs
+- Migrated the inference pipeline from Claude API to Groq to reduce operating costs
 
-Routes conversations across tenants with hardened Supabase Row Level Security policies
+**Source:** Private client system · Architecture write-up available on request
 
-Diagnosed and fixed a production-breaking migration from Meta's remoteJid format to @lid GUIDs
+### Sels UCOB — Order Management System
 
-Migrated the inference pipeline from Claude API to Groq to reduce operating costs
-
-Source: Private client system · Architecture write-up available on request
-
-Sels UCOB — Order Management System
-
-LIVE IN PRODUCTION · Full-stack system for União Centro Oeste Brasileira
+![Status](https://img.shields.io/badge/status-live%20in%20production-3FAE54?style=flat-square) · Full-stack system for União Centro Oeste Brasileira
 
 Manages the complete order lifecycle, from request and warehouse separation to shipment and delivery.
 
-Stack: Next.js 15 · React 19 · TypeScript · Supabase · Tailwind CSS 4 · shadcn/ui · Vercel
+**Stack:** Next.js 15 · React 19 · TypeScript · Supabase · Tailwind CSS 4 · shadcn/ui · Vercel
 
-Multi-role authentication for administrators and operators
+- Multi-role authentication for administrators and operators
+- Real-time inventory, order, and shipment tracking
+- Report generation and photo evidence at each operational stage
+- Multi-module architecture with 65+ commits and automated deployment
 
-Real-time inventory, order, and shipment tracking
+**Live:** [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
 
-Report generation and photo evidence at each operational stage
+### RAG Agent — Retrieval-Augmented Q&A with Evaluation
 
-Multi-module architecture with 65+ commits and automated deployment
-
-Live: sistema-gestao-pedidos.vercel.app
-
-RAG Agent — Retrieval-Augmented Q&A with Evaluation
-
-IN PROGRESS · Production-shaped retrieval system
+![Status](https://img.shields.io/badge/status-in%20progress-F5A623?style=flat-square) · Production-shaped retrieval system
 
 A document Q&A pipeline covering ingestion, embeddings, retrieval, grounded generation, and systematic evaluation. The evaluation harness measures both retrieval quality and answer faithfulness.
 
-Stack: Python · LangChain · pgvector / Supabase · Claude API · Custom evaluation harness
+**Stack:** Python · LangChain · pgvector / Supabase · Claude API · Custom evaluation harness
 
-End-to-end ingestion and semantic retrieval pipeline
+- End-to-end ingestion and semantic retrieval pipeline
+- Grounded responses backed by retrieved context
+- Retrieval and faithfulness metrics designed for repeatable evaluation
+- Built around production concerns rather than a tutorial-only implementation
 
-Grounded responses backed by retrieved context
+**Source:** Private during active development · Technical write-up available on request
 
-Retrieval and faithfulness metrics designed for repeatable evaluation
+### Orçador — Pricing & Scope Engine
 
-Built around production concerns rather than a tutorial-only implementation
-
-Source: Private during active development · Technical write-up available on request
-
-Orçador — Pricing & Scope Engine
-
-IN PROGRESS · Internal product for AoTomate Sistemas
+![Status](https://img.shields.io/badge/status-in%20progress-F5A623?style=flat-square) · Internal product for AoTomate Sistemas
 
 Turns a client brief into structured pricing and scope output using service-tier rules and LLM-generated JSON. It is also my learning-by-building vehicle for understanding every layer of a full-stack product.
 
-Stack: JavaScript · React / Next.js · Supabase / SQL · Claude API · Vercel
+**Stack:** JavaScript · React / Next.js · Supabase / SQL · Claude API · Vercel
 
-Converts unstructured client requirements into predictable JSON output
+- Converts unstructured client requirements into predictable JSON output
+- Applies service-tier and pricing rules to generate proposals consistently
+- Covers HTTP fundamentals, data modeling, backend integration, frontend development, and deployment
 
-Applies service-tier and pricing rules to generate proposals consistently
+**Source:** [github.com/Victorfiallho/orcador](https://github.com/Victorfiallho/orcador)
 
-Covers HTTP fundamentals, data modeling, backend integration, frontend development, and deployment
+---
 
-Source: github.com/Victorfiallho/orcador
-
->_ AoTomate Sistemas
+## `>_ AoTomate Sistemas`
 
 AoTomate is the venture inside VF-Labs. I design custom AI agents, WhatsApp automation pipelines, and management systems around each client's actual operation — with a focus on reliability, maintainability, and measurable operational value.
 
 The first client system is already live in production, and the next step is turning repeated solutions into a scalable SaaS product.
 
-→ Explore AoTomate and my complete portfolio
+→ [Explore AoTomate and my complete portfolio](https://SEU-PORTFOLIO-AQUI)
 
->_ Current focus
+---
 
-[NOW ] RAG systems       embeddings · retrieval · evaluation · faithfulness
-[NOW ] Agentic AI       orchestration · tool use · reliable workflows
-[NOW ] Full-stack       JavaScript · SQL · React/Next.js · deployment
-[NOW ] AI Engineering   calculus · linear algebra · computer science
-[NEXT] Cloud            AWS AI Practitioner certification track
+## `>_ Current focus`
 
->_ Tech stack
+```text
+[NOW ]  RAG systems       embeddings · retrieval · evaluation · faithfulness
+[NOW ]  Agentic AI        orchestration · tool use · reliable workflows
+[NOW ]  Full-stack        JavaScript · SQL · React/Next.js · deployment
+[NOW ]  AI Engineering    calculus · linear algebra · computer science
+[NEXT]  Cloud             AWS AI Practitioner certification track
+```
 
-AI & Automation
+---
 
+## `>_ Tech stack`
 
+**AI & Automation**
 
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama%203.3-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Evolution API](https://img.shields.io/badge/Evolution%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 
+**Application Development**
 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 
+**Data & Infrastructure**
 
-Application Development
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
+---
 
-
-
-
-
-
-
-Data & Infrastructure
-
-
-
-
-
-
-
->_ GitHub activity
+## `>_ GitHub activity`
 
 <div align="center">
-
   <img src="https://github-readme-stats.vercel.app/api?username=Victorfiallho&show_icons=true&theme=dark&hide_border=true&title_color=3FAE54&icon_color=3FAE54" alt="Victor's GitHub stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorfiallho&layout=compact&theme=dark&hide_border=true&title_color=3FAE54" alt="Victor's most used languages" height="165" />
-
 </div>
 
->_ Let's build something useful
+---
+
+## `>_ Let's build something useful`
 
 I'm open to AI engineering opportunities, technical collaborations, and conversations about applied AI, automation, and production systems.
 
 <div align="center">
 
-Portfolio · LinkedIn
+[![Portfolio](https://img.shields.io/badge/Portfolio-3FAE54?style=for-the-badge&logo=googlechrome&logoColor=white)](https://SEU-PORTFOLIO-AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-USUARIO-AQUI)
 
-  <br />
-
-DATA · MODELS · SYSTEMS · IDEAS · CODE
+<sub>DATA · MODELS · SYSTEMS · IDEAS · CODE</sub>
 
 </div>
