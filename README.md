@@ -21,36 +21,6 @@ off-duty    Jiu-Jitsu · philosophy of mind · history of mathematics
 
 ## `>_ Featured projects`
 
-### Hera Remoto — Multi-Tenant WhatsApp AI Agent
-
-![Status](https://img.shields.io/badge/status-live%20in%20production-3FAE54?style=flat-square) · Flagship AoTomate system
-
-AI customer-service agent built for a remote secretarial company. I own the system end to end: architecture, deployment, monitoring, and production debugging.
-
-**Stack:** n8n · Evolution API · Supabase · Groq / Llama 3.3 70B · Oracle Cloud
-
-- Answers inbound WhatsApp messages 24/7 and escalates conversations when human support is needed
-- Routes conversations across tenants with hardened Supabase Row Level Security policies
-- Diagnosed and fixed a production-breaking migration from Meta's `remoteJid` format to `@lid` GUIDs
-- Migrated the inference pipeline from Claude API to Groq to reduce operating costs
-
-**Source:** Private client system · Architecture write-up available on request
-
-### Sels UCOB — Order Management System
-
-![Status](https://img.shields.io/badge/status-live%20in%20production-3FAE54?style=flat-square) · Full-stack system for União Centro Oeste Brasileira
-
-Manages the complete order lifecycle, from request and warehouse separation to shipment and delivery.
-
-**Stack:** Next.js 15 · React 19 · TypeScript · Supabase · Tailwind CSS 4 · shadcn/ui · Vercel
-
-- Multi-role authentication for administrators and operators
-- Real-time inventory, order, and shipment tracking
-- Report generation and photo evidence at each operational stage
-- Multi-module architecture with 65+ commits and automated deployment
-
-**Live:** [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
-
 ### SIMPA — Academic Monitoring & Risk Prediction Platform
 
 ![Status](https://img.shields.io/badge/status-in%20progress-F5A623?style=flat-square) · Integrator project · AI Engineering @ UniEVANGÉLICA
