@@ -51,6 +51,36 @@ Manages the complete order lifecycle, from request and warehouse separation to s
 
 **Live:** [sistema-gestao-pedidos.vercel.app](https://sistema-gestao-pedidos.vercel.app)
 
+### SIMPA — Academic Monitoring & Risk Prediction Platform
+
+![Status](https://img.shields.io/badge/status-in%20progress-F5A623?style=flat-square) · Integrator project · AI Engineering @ UniEVANGÉLICA
+
+Records grades and attendance, computes statistical indicators, and classifies each student's academic risk with an explanation of why — all exposed through a secure REST API.
+
+**Stack:** FastAPI · React + Vite + TypeScript · PostgreSQL · RabbitMQ · nginx · Docker Compose · pytest
+
+- Service-oriented architecture: `auth`, `academico` and `analitico` services, each with its own database, behind an nginx gateway
+- Event-driven risk recalculation: grade and attendance changes publish to RabbitMQ and a worker updates the risk history
+- JWT RS256 authentication, regression-based prediction, recommendations, and PDF/Excel reports
+- Requirements traceability (SRS, ERD, decision log) linking every feature to its requirement
+
+**Source:** [github.com/Victorfiallho/simpa](https://github.com/Victorfiallho/simpa)
+
+### Racha — Split the Restaurant Bill at the Table
+
+![Status](https://img.shields.io/badge/status-design%20phase-8A8F98?style=flat-square) · Product concept · System design first
+
+Customers tap an NFC tag or scan a QR code on the table, mark what they ordered (or split evenly), and pay their share via Pix. The table closes itself once everything is paid.
+
+**Stack (planned):** OpenAPI · JSON Schema · Architecture Decision Records
+
+- Ingestion layer that normalizes bills from an open API, POS connectors, a print-capture agent, or a manual panel into one canonical format
+- Full requirements, use cases with acceptance criteria, domain model with state machines, and ADRs
+- Contracts defined up front: OpenAPI for ingestion and JSON Schema for the canonical bill and events
+- Includes a 3D-printed table piece spec combining QR code and NFC
+
+**Source:** [github.com/Victorfiallho/Racha](https://github.com/Victorfiallho/Racha)
+
 ### RAG Agent — Retrieval-Augmented Q&A with Evaluation
 
 ![Status](https://img.shields.io/badge/status-in%20progress-F5A623?style=flat-square) · Production-shaped retrieval system
