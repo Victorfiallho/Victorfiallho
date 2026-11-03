@@ -108,7 +108,7 @@ Turns a client brief into structured pricing and scope output using service-tier
 - Applies service-tier and pricing rules to generate proposals consistently
 - Covers HTTP fundamentals, data modeling, backend integration, frontend development, and deployment
 
-**Source:** [github.com/Victorfiallho/orcador](https://github.com/Victorfiallho/orcador)
+**Source:** Private during active development · Technical write-up available on request
 
 ---
 
