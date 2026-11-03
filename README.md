@@ -82,16 +82,6 @@ Turns a client brief into structured pricing and scope output using service-tier
 
 ---
 
-## `>_ AoTomate Sistemas`
-
-AoTomate is the venture inside VF-Labs. I design custom AI agents, WhatsApp automation pipelines, and management systems around each client's actual operation — with a focus on reliability, maintainability, and measurable operational value.
-
-The first client system is already live in production, and the next step is turning repeated solutions into a scalable SaaS product.
-
-→ [Explore AoTomate and my complete portfolio](https://victorfiallho.github.io)
-
----
-
 ## `>_ Current focus`
 
 ```text
