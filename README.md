@@ -88,7 +88,7 @@ AoTomate is the venture inside VF-Labs. I design custom AI agents, WhatsApp auto
 
 The first client system is already live in production, and the next step is turning repeated solutions into a scalable SaaS product.
 
-→ [Explore AoTomate and my complete portfolio](https://SEU-PORTFOLIO-AQUI)
+→ [Explore AoTomate and my complete portfolio](https://victorfiallho.github.io)
 
 ---
 
@@ -149,8 +149,8 @@ I'm open to AI engineering opportunities, technical collaborations, and conversa
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-3FAE54?style=for-the-badge&logo=googlechrome&logoColor=white)](https://SEU-PORTFOLIO-AQUI)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-USUARIO-AQUI)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3FAE54?style=for-the-badge&logo=googlechrome&logoColor=white)](https://victorfiallho.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-fialho-9140b23b5/)
 
 <sub>DATA · MODELS · SYSTEMS · IDEAS · CODE</sub>
 
