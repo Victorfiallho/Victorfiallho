@@ -157,14 +157,40 @@ victor@vf-labs:~$ ./roadmap --active
 [NOW ]  Agentic AI        orchestration · tool use · reliable workflows
 [NOW ]  Full-stack        JavaScript · SQL · React/Next.js · deployment
 [NOW ]  AI Engineering    calculus · linear algebra · computer science
+[NOW ]  Security          offensive security · Linux · web app pentesting
 [NEXT]  Cloud             AWS AI Practitioner certification track
+[NEXT]  Pentest           SYCP — Solyd Certified Pentester
 
 victor@vf-labs:~$
 ```
 
 ---
 
-## `04`  `>_ Tech stack`
+## `04`  `>_ Certifications & security`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/SOLYD-Linux%20%26%20Shell%20Script%20for%20Pentesters-3FAE54?style=for-the-badge&labelColor=0D1117" alt="Solyd Linux"/>
+<img src="https://img.shields.io/badge/SOLYD-Python%20OOP%20%26%20Automation-3FAE54?style=for-the-badge&labelColor=0D1117" alt="Solyd Python"/>
+<img src="https://img.shields.io/badge/SYCP-in%20progress-F5A623?style=for-the-badge&labelColor=0D1117" alt="SYCP"/>
+
+</div>
+
+```bash
+victor@vf-labs:~$ cat certs.txt
+
+[✔] Dominando o Linux e Shell Script para Pentesters   Solyd Offensive Security   16h     Aug 2026
+[✔] Python Orientado a Objetos e Automação             Solyd Offensive Security   46h40   Sep 2026
+[ ] SYCP — Solyd Certified Pentester                   Solyd Offensive Security   next
+
+victor@vf-labs:~$ ls ~/labs
+owasp-juice-shop/   # SQLi · XSS · hash cracking (hashcat) · recon (nmap)
+tailscale-lab/      # private VPN lab for security practice
+```
+
+---
+
+## `05`  `>_ Tech stack`
 
 <div align="center">
 
@@ -191,11 +217,18 @@ victor@vf-labs:~$
 <img src="https://img.shields.io/badge/pgvector-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="pgvector"/>
 <img src="https://img.shields.io/badge/Oracle%20Cloud-0D1117?style=for-the-badge&logo=oracle&logoColor=F80000" alt="Oracle Cloud"/>
 
+**Security**
+
+<img src="https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Hashcat-0D1117?style=for-the-badge&logoColor=white" alt="Hashcat"/>
+<img src="https://img.shields.io/badge/OWASP-0D1117?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
+<img src="https://img.shields.io/badge/Tailscale-0D1117?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale"/>
+
 </div>
 
 ---
 
-## `05`  `>_ GitHub activity`
+## `06`  `>_ GitHub activity`
 
 <div align="center">
 
@@ -214,7 +247,7 @@ victor@vf-labs:~$
 
 ---
 
-## `06`  `>_ Let's build something useful`
+## `07`  `>_ Let's build something useful`
 
 I'm open to AI engineering opportunities, technical collaborations, and conversations about applied AI, automation, and production systems.
 
